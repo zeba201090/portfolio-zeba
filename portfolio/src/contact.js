@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 
 function ContactForm() {
   const [showForm, setShowForm] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -16,22 +17,29 @@ function ContactForm() {
     emailjs.sendForm('service_wq20f8u', 'template_ol4rdqg', e.target, 'At7512vyF-deLgKxp')
       .then((result) => {
         console.log('Email sent successfully:', result);
-        // Add success message or other handling here
+        setShowSuccess(true);
+
+        setTimeout(() => {
+          setShowSuccess(false);
+        }, 5000); 
+        
+        setTimeout(() => {
+          setShowForm(false);
+        }, 5000); 
       })
       .catch((error) => {
         console.error('Email send failed:', error);
-        // Add error message or other handling here
+        
       });
 
-    // Clear form data
+   
     setFormData({
       name: '',
       email: '',
       message: '',
     });
 
-    // Hide the form after submission
-    setShowForm(false);
+    
   };
 
   return (
@@ -45,11 +53,11 @@ function ContactForm() {
 
       {showForm && (
         <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center z-50">
-          {/* Background overlay */}
+          
           <div className="bg-black opacity-50 w-full h-full absolute"></div>
           
 
-          {/* Contact Form */}
+       
           
           <form onSubmit={handleSubmit} className="m-auto z-10">
             <div className="m-auto p-16 w-full h-full bg-zinc-900 z-50 gap-3 rounded-md animate-fadeIn">
@@ -60,7 +68,7 @@ function ContactForm() {
             >
               Close
             </button>
-              <h1 className="mx-auto text-2xl font-bold p-2 text-white w-fit">
+              <h1 className="mx-auto text-2xl  font-bold p-2 text-white w-3/4 h-1/2">
                 Contact me today!
               </h1>
               <div className="p-2">
@@ -101,13 +109,19 @@ function ContactForm() {
                   required
                 ></textarea>
               </div>
-              <div className="md:mx-60">
+              <div className="md:mx-60 ">
+              
                 <button
                   type="submit"
-                  className="bg-purple-500 text-white px-4 py-2 m-auto"
+                  className="bg-purple-500 text-white px-4 py-2 m-auto w-24"
                 >
                   Send
                 </button>
+                {showSuccess && (
+                <div className=' shadow-md shadow-purple-700 w-fit rounded-sm  p-4 mx-auto my-5 z-40  text-white'>
+                  <h2 className='text-l'>Email sent successfully! </h2>
+                </div>
+              )}
               </div>
             </div>
             </div>

@@ -15,14 +15,16 @@ function Footer() {
             </div>
             <div className="w-full md:w-1/2">
            
-              <div className="flex flex-col p-20 text-md space-y-3 float-right">
+              <div className="flex flex-col md:p-15 text-md space-y-3   pl-20 md:my-20 
+              md:mx-auto md:float-right">
             
              <div className="flex flex-row p-1 gap-2 "> <FaMailBulk/>  <h1>mzeba16@gmail.com</h1> </div>
              <div className="flex flex-row p-1 gap-2"> <FaMailBulk/>  <h1>mzeba201090@bscse.uiu.ac.bd</h1> </div>
 
              <div className="flex flex-row p-1 gap-2"> <FaMapPin/>  <h1>Dhaka, Bangladesh</h1></div>
+             
             
-             <div className="flex  md:flex-row gap-6  md:space-x-12  items-center   md-mx-auto px-auto  ">
+             <div className="flex  md:flex-row gap-8 p-4 px-4  ">
          <div > <a href="https://www.linkedin.com/in/musarrat-zeba-42ab52251/"><svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6  hover:scale-125 duration-300"
@@ -56,9 +58,11 @@ function Footer() {
           </div>
         </div>
 
-              </div>
+              
             </div>
           </div>
+        </div>
+        
         </div>
       </section>
     
