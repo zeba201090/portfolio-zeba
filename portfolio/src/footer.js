@@ -1,5 +1,4 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import ContactForm from './contactForm';
 import {  FaPhone,FaMailBulk,FaMapPin } from "react-icons/fa";
 
@@ -7,8 +6,9 @@ function Footer() {
   return (
    
       <section id='contact' className="relative  bg-black max-h-fit md:w-full border-blue-100">
-        <div className="container max-w-screen-lg mx-auto md:pt-8 flex flex-col justify-center w-full text-white">
-          <h2 className="text-3xl font-bold text-white-800 mb-4">Contact Me</h2>
+        <div className="container max-w-screen-lg mx-auto md:pt-8 flex flex-col justify-center w-full text-white p-15 ">
+          <div className=''>
+          <h2 className="text-3xl font-bold text-white-800 mb-4 p-3">Contact Me</h2> </div>
           <div className="flex flex-wrap">
             <div className="w-full md:w-1/2">
               <ContactForm />
@@ -22,7 +22,7 @@ function Footer() {
 
              <div className="flex flex-row p-1 gap-2"> <FaMapPin/>  <h1>Dhaka, Bangladesh</h1></div>
             
-             <div className="flex  md:flex-row gap-5  md:space-x-12  items-center   md-mx-auto  ">
+             <div className="flex  md:flex-row gap-6  md:space-x-12  items-center   md-mx-auto px-auto  ">
          <div > <a href="https://www.linkedin.com/in/musarrat-zeba-42ab52251/"><svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6  hover:scale-125 duration-300"

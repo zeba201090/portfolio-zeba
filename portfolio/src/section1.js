@@ -22,15 +22,22 @@ function Section1() {
       <div className="mx-auto z-50 animate-fadeIn ">
         <h1 className="font-bold text-8xl  ">Hi! I am Zeba</h1>
         <h1 className="font-bold text-7xl ">Software Engineer</h1>
-
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 p-4 items-center md:ml-40 md:mt-10">
-        <ContactForm/>
-          <AnchorLink href="#about"> <button className="outline p-2 text-xl hover:scale-105 duration-300">
-            My Portfolio
-          </button> </AnchorLink>
-        
-        </div>
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12 p-4 items-center mt-20 z-50 md:ml-48">
+        <div className="flex justify-center items-center md:w-1/2 p-4 md:mx-auto">
+  <p className="text-l font-semibold ">
+    As an experienced backend developer of JavaScript and proficient in the MERN stack, I possess the skills necessary to design and deliver robust full-stack solutions.
+  </p>
+</div>
+<div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 md:p-2 mt-10  mx-auto ">
+  <div className="">
+    <ContactForm />
+  </div>
+  <AnchorLink href="#about">
+    <button className="outline p-2 text-xl hover:scale-105 duration-300 ">
+      My Portfolio
+    </button>
+  </AnchorLink>
+</div>
+<div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-12 p-6 md:mt-20 z-50 md:ml-auto">
           
           <a href="https://www.linkedin.com/in/musarrat-zeba-42ab52251/"><svg
             xmlns="http://www.w3.org/2000/svg"

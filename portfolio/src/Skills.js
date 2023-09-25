@@ -105,7 +105,7 @@ const Skills = () => {
 
   
     
-       <AnchorLink href='#skills'> <section id='skills' className="relative bg-gradient-to-t from-purple-900 to-black  p-20 w-full h-full-screen">
+        <section id='skills' className="relative bg-gradient-to-t from-purple-900 to-black  p-20 w-full h-full-screen">
     <div id='skills' className=" animate-pulse max-w-full overflow-hidden ">
     {Array.from({ length: 100 }, (_, i) => (
       <div
@@ -149,7 +149,7 @@ const Skills = () => {
       </div>
      
     </section>
-    </AnchorLink>
+    
   );
 };
 export default Skills;
