@@ -1,4 +1,6 @@
 import React from "react";
+import ContactForm from "./contact";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Section1() {
   return (
@@ -17,17 +19,16 @@ function Section1() {
           ></div>
         ))}
       </div>
-      <div className="mx-auto z-50 ">
+      <div className="mx-auto z-50 animate-fadeIn ">
         <h1 className="font-bold text-8xl  ">Hi! I am Zeba</h1>
         <h1 className="font-bold text-7xl ">Software Engineer</h1>
 
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 p-4 items-center md:ml-40 md:mt-10">
-          <button className="outline p-2 text-xl hover:scale-105 duration-300">
-            Hire Me
-          </button>
-          <button className="outline p-2 text-xl hover:scale-105 duration-300">
+        <ContactForm/>
+          <AnchorLink href="#about"> <button className="outline p-2 text-xl hover:scale-105 duration-300">
             My Portfolio
-          </button>
+          </button> </AnchorLink>
+        
         </div>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12 p-4 items-center mt-20 z-50 md:ml-48">
           

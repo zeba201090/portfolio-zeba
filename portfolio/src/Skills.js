@@ -105,12 +105,12 @@ const Skills = () => {
 
   
     
-       <AnchorLink href='#skills'> <section  className="relative bg-gradient-to-t from-purple-900 to-black  p-20 w-full h-full-screen">
-    <div id='skills' className=" animate-pulse max-w-full ">
+       <AnchorLink href='#skills'> <section id='skills' className="relative bg-gradient-to-t from-purple-900 to-black  p-20 w-full h-full-screen">
+    <div id='skills' className=" animate-pulse max-w-full overflow-hidden ">
     {Array.from({ length: 100 }, (_, i) => (
       <div
         key={i}
-        className="absolute w-1 h-1 bg-white rounded-full  "
+        className="absolute w-1 h-1 bg-white rounded-full overflow-hidden  "
         style={{
           top: Math.random() * 100 + '%',
           left: Math.random() * 100 + '%',
@@ -138,7 +138,7 @@ const Skills = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-lg bg-transparent hover:scale-110 duration-500 py-2 rounded-lg ${style} md:w-45 md:h-38 z-50 md:mt-2 `}
+              className={`shadow-lg  bg-white bg-opacity-5 backdrop-blur-s hover:scale-110 duration-500 py-2 rounded-lg ${style} md:w-45 md:h-38 z-30 md:mt-2 `}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>

@@ -18,7 +18,7 @@ module.exports = {
       pulse: 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       bounce: 'bounce 1s infinite',
       typing: 'typing 2s steps(20) infinite alternate, blink .7s infinite',
-     
+      fadeIn: 'fadeIn 1.5s',
     },
     aria: {
       busy: 'busy="true"',
@@ -580,6 +580,19 @@ module.exports = {
           opacity: '0',
         },
       },
+      fadeIn :{
+        '0%' :{
+          opacity: '0',
+          transform: 'scale(2)',
+        },
+        '100%': {
+          opacity: '1',
+          transform: 'scale(1)',
+        }
+      },
+
+      
+
       pulse: {
         '50%': {
           opacity: '0.4',
