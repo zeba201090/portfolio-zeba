@@ -11,6 +11,10 @@ import mysql from "./assets/mysql.png";
 import Cplus from "./assets/C++.png";
 import git from "./assets/git.png";
 import tailwind from "./assets/tailwind.png";
+import nextjs from "./assets/nextjs.png";
+import docker from "./assets/docker.png";
+import linux from "./assets/linux.png";
+
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
@@ -49,7 +53,12 @@ const Skills = () => {
       style: "shadow-green-500 ",
     },
 
-    
+    {
+      id: 13,
+      src: docker,
+      title: "Docker",
+      style: "shadow-blue-600 ",
+    },
 
      {
       id: 10,
@@ -83,6 +92,14 @@ const Skills = () => {
       title: "Tailwind",
       style: "shadow-sky-300 ",
     },
+
+    {
+      id: 0,
+      src: nextjs,
+      title: "Next.js",
+      style: "shadow-red-700",
+
+    },
       
       {
         id: 1,
@@ -97,6 +114,15 @@ const Skills = () => {
         title: "C++",
         style: "shadow-blue-400",
       },
+
+      {
+        id: 12,
+        src: linux,
+        title: "Linux",
+        style: "shadow-yellow-400",
+      }
+
+
 
     
   ];
