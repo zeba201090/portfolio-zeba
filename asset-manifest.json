@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-zeba/static/css/main.ae266536.css",
-    "main.js": "/portfolio-zeba/static/js/main.6016f7c6.js",
+    "main.css": "/portfolio-zeba/static/css/main.e7372cb1.css",
+    "main.js": "/portfolio-zeba/static/js/main.6b76934b.js",
     "static/media/Eventpro.png": "/portfolio-zeba/static/media/Eventpro.83a7d1b5837504becc53.png",
     "static/media/mongoDB.png": "/portfolio-zeba/static/media/mongoDB.6170bacefd8a1f69ca74.png",
     "static/media/php.png": "/portfolio-zeba/static/media/php.400d9f1701f39cc1fe57.png",
@@ -14,7 +14,9 @@
     "static/media/portfolio.jpg": "/portfolio-zeba/static/media/portfolio.31857d11f8d271ed308e.jpg",
     "static/media/mongodb.jpg": "/portfolio-zeba/static/media/mongodb.233e44b87f7ca1564719.jpg",
     "static/media/javascript.png": "/portfolio-zeba/static/media/javascript.c77368ad83f2d6dc4eab.png",
+    "static/media/linux.png": "/portfolio-zeba/static/media/linux.56c9085bc10b62936306.png",
     "static/media/todo.jpg": "/portfolio-zeba/static/media/todo.2ca760c46ac59359c5e9.jpg",
+    "static/media/docker.png": "/portfolio-zeba/static/media/docker.56f0d51c4c4cafef2a75.png",
     "static/media/mysql.png": "/portfolio-zeba/static/media/mysql.6ae7c2aa9f4123006578.png",
     "static/media/react.png": "/portfolio-zeba/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/git.png": "/portfolio-zeba/static/media/git.1ab3caa3101c9c9a49b5.png",
@@ -22,13 +24,14 @@
     "static/media/C++.png": "/portfolio-zeba/static/media/C++.1240ce157b70fb399c6c.png",
     "static/media/tailwind.png": "/portfolio-zeba/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/portfolio-zeba/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/nextjs.png": "/portfolio-zeba/static/media/nextjs.75d8c367656f04039f34.png",
     "static/media/ex.png": "/portfolio-zeba/static/media/ex.39a0f4c3d981885c64f8.png",
     "index.html": "/portfolio-zeba/index.html",
-    "main.ae266536.css.map": "/portfolio-zeba/static/css/main.ae266536.css.map",
-    "main.6016f7c6.js.map": "/portfolio-zeba/static/js/main.6016f7c6.js.map"
+    "main.e7372cb1.css.map": "/portfolio-zeba/static/css/main.e7372cb1.css.map",
+    "main.6b76934b.js.map": "/portfolio-zeba/static/js/main.6b76934b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae266536.css",
-    "static/js/main.6016f7c6.js"
+    "static/css/main.e7372cb1.css",
+    "static/js/main.6b76934b.js"
   ]
 }
