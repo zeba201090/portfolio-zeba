@@ -6,6 +6,7 @@ import './App.css';
 
 import Section1 from './section1';
 import About from './about';
+import Blog from './blog';
 import ScrollToTopButton from './scroll';
 import Skills from './Skills';
 import Achievements from './achievements'
@@ -20,6 +21,7 @@ root.render(
     <App />
     <Section1 />
     <About />
+    <Blog />
     <Skills />
     <Achievements />
     <Projects />
