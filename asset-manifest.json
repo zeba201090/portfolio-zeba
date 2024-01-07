@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-zeba/static/css/main.c2c34498.css",
-    "main.js": "/portfolio-zeba/static/js/main.31f4f5e1.js",
+    "main.css": "/portfolio-zeba/static/css/main.2fcd92fc.css",
+    "main.js": "/portfolio-zeba/static/js/main.7ba71a15.js",
     "static/media/Eventpro.png": "/portfolio-zeba/static/media/Eventpro.83a7d1b5837504becc53.png",
     "static/media/mongoDB.png": "/portfolio-zeba/static/media/mongoDB.6170bacefd8a1f69ca74.png",
     "static/media/php.png": "/portfolio-zeba/static/media/php.400d9f1701f39cc1fe57.png",
@@ -28,11 +28,11 @@
     "static/media/nextjs.png": "/portfolio-zeba/static/media/nextjs.75d8c367656f04039f34.png",
     "static/media/ex.png": "/portfolio-zeba/static/media/ex.39a0f4c3d981885c64f8.png",
     "index.html": "/portfolio-zeba/index.html",
-    "main.c2c34498.css.map": "/portfolio-zeba/static/css/main.c2c34498.css.map",
-    "main.31f4f5e1.js.map": "/portfolio-zeba/static/js/main.31f4f5e1.js.map"
+    "main.2fcd92fc.css.map": "/portfolio-zeba/static/css/main.2fcd92fc.css.map",
+    "main.7ba71a15.js.map": "/portfolio-zeba/static/js/main.7ba71a15.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2c34498.css",
-    "static/js/main.31f4f5e1.js"
+    "static/css/main.2fcd92fc.css",
+    "static/js/main.7ba71a15.js"
   ]
 }
