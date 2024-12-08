@@ -14,6 +14,9 @@ import tailwind from "./assets/tailwind.png";
 import nextjs from "./assets/nextjs.png";
 import docker from "./assets/docker.png";
 import linux from "./assets/linux.png";
+import shopify from "./assets/shopify.png";
+
+
 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
@@ -120,6 +123,12 @@ const Skills = () => {
         src: linux,
         title: "Linux",
         style: "shadow-yellow-400",
+      },
+      {
+        id: 13,
+        src: shopify,
+        title: "Shopify",
+        style: "shadow-green-400",
       }
 
 

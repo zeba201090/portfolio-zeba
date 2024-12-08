@@ -1,6 +1,7 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
+
 function About() {
   return (
     
@@ -34,7 +35,7 @@ function About() {
        
         <div className="flex flex-col md:flex-row items-center z-40 md:mt-12">
           <div className="md:w-1/2 mb-4 md:mb-0 p-5 ">
-            <img src="demo.png" alt="Musarrat Zeba" className="md:w-60 md:h-60 rounded-full shadow-lg  md:mr-12" />
+            <img src="profile-pic.png" alt="Musarrat Zeba" className="md:w-60 md:h-60 rounded-full shadow-lg  md:mr-12" />
           </div>
           <div className="md:w-full md:pl-2">
           <p className="text-white text-lG mb-4 hover:scale-105 duration-300">
