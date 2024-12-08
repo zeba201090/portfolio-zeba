@@ -62,6 +62,8 @@ function Projects() {
     return (
       <section id='projects' className="relative bg-gradient-to-t from-black to-purple-900 p-15 min-h-1/2 md:w-full">
          <div className=" animate-pulse max-w-full  overflow-hidden">
+
+
     {Array.from({ length: 100 }, (_, i) => (
       <div
         key={i}
@@ -85,7 +87,13 @@ function Projects() {
         </p>
         <p className="py-6 text-l"></p>
       </div>
+      <div> <h1>
+  The projects you see here are from my early side projects as a student. Now, I work remotely with <span class="font-bold">MERN stack</span> technologies for well-known brands in the <span class="font-bold">UK</span>, <span class="font-bold">US</span>, and <span class="font-bold">Canada</span>. My main focus is on building <span class="font-bold">configurable systems</span> and <span class="font-bold">authentication solutions</span> for a variety of clients, including <span class="font-bold">government product sellers</span>. Each project involves careful <span class="font-bold">system and database architecture</span> to ensure the solutions are both efficient and scalable. In addition to backend work, I also explore <span class="font-bold">AR/VR development</span> and <span class="font-bold">3D modeling</span>, creating immersive experiences and visualizing complex data in creative ways. I’m always working to optimize performance, ensuring that systems are <span class="font-bold">fast, reliable, and secure</span>, even when managing large amounts of data.
+</h1>
+
+                 </div>
           <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-12 text-center sm:py-8 sm:px-12">
+          
             {techs.map(({ id, src, title, style, desciption, detail,link }) => (
               <div
                 key={id}

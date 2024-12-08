@@ -15,6 +15,10 @@ import nextjs from "./assets/nextjs.png";
 import docker from "./assets/docker.png";
 import linux from "./assets/linux.png";
 import shopify from "./assets/shopify.png";
+import azure from "./assets/azure.png";  
+import shadcn from "./assets/shadcn.png";  
+import stripe from "./assets/stripe.png";
+
 
 
 
@@ -129,7 +133,25 @@ const Skills = () => {
         src: shopify,
         title: "Shopify",
         style: "shadow-green-400",
-      }
+      },
+      {
+        id: 14,
+        src: azure,
+        title: "Azure",
+        style: "shadow-blue-500",  // Add a style color for Azure
+      },
+      {
+        id: 15,
+        src: shadcn,
+        title: "ShadCN",
+        style: "shadow-gray-500",  
+      },
+      {
+        id: 16,
+        src: stripe,
+        title: "Stripe",
+        style: "shadow-purple-500",  
+      },
 
 
 
