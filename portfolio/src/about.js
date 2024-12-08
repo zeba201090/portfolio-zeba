@@ -37,9 +37,12 @@ function About() {
             <img src="demo.png" alt="Musarrat Zeba" className="md:w-60 md:h-60 rounded-full shadow-lg  md:mr-12" />
           </div>
           <div className="md:w-full md:pl-2">
-            <p className="text-white text-xl mb-4 hover:scale-105 duration-300   ">
-              I am a CSE student at United International University, and my passion lies in the field of software engineering. My eagerness to learn and stay updated with the latest technology trends has allowed me to develop an impressive skillset in backend development. My problem-solving capabilities are strong, and I am always eager to contribute to software engineering projects through work or internship opportunities.
-            </p>
+          <p className="text-white text-lG mb-4 hover:scale-105 duration-300">
+          I'm a Software Engineer with a passion for backend development and solving complex problems. I currently work remotely at <a href="https://cocoon.agency/about" className="text-blue-400 hover:underline">Cocoon, UK</a>, where I joined the team in February 2024, during my final semester at United International University. It’s been an amazing journey working with the MERN stack and diving into the latest technologies, from frontend to backend development.
+
+          My journey into software engineering started with my deep curiosity and eagerness to learn. Throughout my studies, I’ve honed my skills in backend development, databases, and tackling challenging engineering problems. Now, at Cocoon, I’m continuing to grow, work on real-world projects, and contribute to building innovative solutions. I’m always excited to take on new challenges and keep learning, whether it’s through work, side projects, or exploring the newest tech trends.
+        </p>
+
           </div>
           </div>
         </div>

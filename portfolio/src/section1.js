@@ -19,14 +19,19 @@ function Section1() {
           ></div>
         ))}
       </div>
-      <div className="mx-auto z-50 animate-fadeIn ">
-        <h1 className="font-bold text-8xl  ">Hi! I am Zeba</h1>
-        <h1 className="font-bold text-7xl ">Software Engineer</h1>
-        <div className="flex justify-center items-center md:w-1/2 p-4 md:mx-auto">
-  <p className="text-l font-semibold ">
-    As an experienced backend developer of JavaScript and proficient in the MERN stack, I possess the skills necessary to design and deliver robust full-stack solutions.
-  </p>
-</div>
+      {/* <div className="mx-auto z-50 animate-fadeIn "> */}
+      <div className="mx-auto z-50 animate-fadeIn px-8 max-w-6xl">
+      <h1 className="font-bold text-7xl text-center mb-2">Hi! I am Zeba</h1>
+  <h2 className="font-bold text-6xl text-center mb-6">Software Engineer</h2>
+  <div className="flex flex-col justify-center items-center md:w-3/4 lg:w-2/3 p-4 mx-auto text-center">
+    <p className="text-base font-semibold mb-4 md:text-lg">
+      I work as a professional JavaScript developer, mainly focused on backend development and creating solutions for complex systems. I love tackling challenging engineering problems and take pride in building reliable and efficient full-stack applications.
+    </p>
+    <p className="text-base font-semibold md:text-md">
+      <strong>JavaScript | Backend | REST API | GraphQL | Scalable Systems | NoSQL | SQL | Tech Enthusiast | Problem Solver | Continuous Learner</strong>
+    </p>
+  </div>
+
 <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 md:p-2 mt-10  mx-auto ">
   <div className="">
     <ContactForm />
