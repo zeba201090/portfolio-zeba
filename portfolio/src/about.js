@@ -48,7 +48,7 @@ function About() {
               > Cocoon, UK
               </a>, where I joined the team in February 2024, during my final semester at United International University. It’s been an amazing journey working with the MERN stack and diving into the latest technologies, from frontend to backend development.
 
-              My journey into software engineering started with my deep curiosity and eagerness to learn. Throughout my studies, I’ve honed my skills in backend development, databases, and tackling challenging engineering problems. Now, at Cocoon, I’m continuing to grow, work on real-world projects, and contribute to building innovative solutions. I’m always excited to take on new challenges and keep learning, whether it’s through work, side projects, or exploring the newest tech trends.
+              My journey into software engineering started with my deep curiosity and eagerness to learn. Throughout my studies, I’ve polished my skills in backend development, databases, and tackling challenging engineering problems. Now, at Cocoon, I’m continuing to grow, work on real-world projects, and contribute to building innovative solutions. I’m always excited to take on new challenges and keep learning, whether it’s through work, side projects, or exploring the newest tech trends.
             </p>
 
           </div>
